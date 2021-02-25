@@ -1,0 +1,128 @@
+
+.search {
+    padding: 80px 20px 20px;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media(max-width: 700px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+.form {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media(max-width: 700px) {
+    .form {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
+
+.form legend {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    border: 1px solid #ced4da;
+    color: #495037;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 100%;
+    height: 35px;
+    text-transform: capitalize;
+    outline: none; 
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form button {
+    height: 35px;
+    width: 100%;
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background .3s ease-in-out;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background: #007bff;
+    color: #fff
+}
+
+.results {
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+@media(max-width: 700px) {
+    .results {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.subtitle {
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.subtitle + div {
+    width: 60%;
+}
+
+@media(max-width: 800px) {
+    .subtitle + div {
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px) {
+    .subtitle + div {
+        width: 70%;
+    }
+}
+
+.info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}

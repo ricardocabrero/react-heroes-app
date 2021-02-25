@@ -1,0 +1,45 @@
+
+.navBar {
+    background: #343a40;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 1px 1px #666;
+}
+
+.title {
+    color: #fff;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: default;
+}
+
+.title:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.item {
+    padding: 15px;
+    color:rgba(255,255,255,.5);
+    transition: color .1s ease;
+}
+
+.item:hover {
+    color:rgba(255,255,255,.3);
+    text-decoration: none;
+}
+
+.active, .active:hover {
+    color: #fff;
+}
