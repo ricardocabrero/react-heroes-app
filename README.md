@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [http://rc-react-heroes-app.surge.sh/](http://rc-react-heroes-app.surge.sh/)
 
-### query-string
+### Search by query-string
