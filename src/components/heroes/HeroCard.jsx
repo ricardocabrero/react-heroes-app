@@ -5,7 +5,7 @@ import styles from '../../styles/card.module.css'
 
 export const HeroCard = ({hero}) => {
     const { id, superhero, alter_ego, first_appearance, characters } = hero;
-
+    
     return(
         <div className={styles.card}>
             <div className={styles.image}>

@@ -32,6 +32,7 @@
     border-radius: 8px 0 0 8px;
     width: 40%;
     overflow: hidden;
+    min-height: 180px;
 }
 
 @media(max-width: 700px) {
