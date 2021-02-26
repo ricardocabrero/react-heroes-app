@@ -13,7 +13,8 @@ export const HeroCard = ({hero}) => {
             <LazyLoad height={200}>
                 <img 
                 src={`./assets/heroes/${id}.jpg`}
-                alt={superhero}/>
+                alt={superhero}
+                className='animate__animated animate__fadeIn'/>
             </LazyLoad>
             </div>
             <div className={styles.body}>
