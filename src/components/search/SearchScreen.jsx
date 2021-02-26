@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import PropTypes from 'prop-types';
 import queryString from 'query-string';
 import { getHeroesByName } from '../../selectors/getHeroesByName';
 import { useLocation } from 'react-router-dom';
@@ -60,4 +61,8 @@ export const SearchScreen = ({history}) => {
             </div>
         </div>
     )
+}
+
+SearchScreen.propTypes = {
+    history: PropTypes.object.isRequired,
 }

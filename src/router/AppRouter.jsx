@@ -10,9 +10,9 @@ import { ScrollToTop } from "../components/scrollToTop/ScrollToTop";
 export const AppRouter =() => {
     return (
         <Router>
-            <ScrollToTop/>
             <div>             
                 <NavBar/>
+                <ScrollToTop/>
                 <Switch>
                     <Route exact path="/dc" component={DcScreen}/>
                     <Route exact path="/marvel" component={MarvelScreen}/>

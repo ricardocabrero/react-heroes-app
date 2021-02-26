@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import styles from '../../styles/card.module.css'
 
@@ -24,5 +25,8 @@ export const HeroCard = ({hero}) => {
             </div>
         </div>
     )
+}
 
+HeroCard.propTypes = {
+    hero: PropTypes.object.isRequired,
 }

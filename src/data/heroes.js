@@ -11,9 +11,9 @@ export const heroes = [
         'id': 'dc-superman',
         'superhero':'Superman', 
         'publisher':'DC Comics', 
-        'alter_ego':'Kal-El',
+        'alter_ego':'Clark Kent',
         'first_appearance':'Action Comics #1',
-        'characters':'Kal-El'
+        'characters':'Clark Kent'
     },
     {
         'id': 'dc-flash',
