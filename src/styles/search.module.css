@@ -93,22 +93,6 @@
     margin-bottom: 20px;
 }
 
-.subtitle + div {
-    width: 60%;
-}
-
-@media(max-width: 800px) {
-    .subtitle + div {
-        width: 100%;
-    }
-}
-
-@media(max-width: 700px) {
-    .subtitle + div {
-        width: 70%;
-    }
-}
-
 .info {
     color: #0c5460;
     background-color: #d1ecf1;

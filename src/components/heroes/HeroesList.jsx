@@ -11,7 +11,7 @@ export const HeroesList = ({ publisher }) => {
     return(
         <div className={`${styles.list} animate__animated animate__fadeIn`}>
             {heroes.map(hero => 
-                (<HeroCard key={hero.id} hero={hero}/>)
+                (<HeroCard classCard='normal' key={hero.id} hero={hero}/>)
             )}
         </div>
     )

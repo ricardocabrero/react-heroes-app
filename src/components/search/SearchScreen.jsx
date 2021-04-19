@@ -55,7 +55,7 @@ export const SearchScreen = ({history}) => {
                     <div className={styles.warning}>There is no a hero with "{q}"</div>}
 
                     {heroesFiltered.map(hero => 
-                    <HeroCard className={styles.card} key={hero.id} hero={hero}/>
+                    <HeroCard key={hero.id} hero={hero}/>
                     )}
                 </div>
             </div>

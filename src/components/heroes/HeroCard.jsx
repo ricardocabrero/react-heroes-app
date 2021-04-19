@@ -4,12 +4,16 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom';
 import styles from '../../styles/card.module.css'
 
-export const HeroCard = ({hero}) => {
+export const HeroCard = ({hero, classCard}) => {
     const { id, superhero, alter_ego, first_appearance, characters } = hero;
-    
+
+    const theClass = classCard === 'normal' 
+    ?`${styles.card}` 
+    : `${styles.card} ${styles.special}`
+
     return(
-        <div className={styles.card}>
-            <div className={styles.image}>
+        <div className={theClass}>
+            <div className={styles.image}> 
             <LazyLoad height={200}>
                 <img 
                 src={`./assets/heroes/${id}.jpg`}

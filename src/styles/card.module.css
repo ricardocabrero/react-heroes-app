@@ -8,9 +8,16 @@
     display: flex;
 }
 
+.special {
+    width: 60%;
+}
+
 @media(max-width: 1100px) {
     .card {
         width: 31.33%;
+    }
+    .special {
+        width: 100%;
     }
 }
 
@@ -18,12 +25,18 @@
     .card {
         width: 48%;
     }
+    .special {
+        width: 100%;
+    }
 }
 
 @media(max-width: 700px) {
     .card {
         display: flex;
         flex-direction: column;
+    }
+    .special {
+        width: 100%;
     }
 }
 
